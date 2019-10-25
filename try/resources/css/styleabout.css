@@ -1,0 +1,96 @@
+/*-------------------------------*/
+/*  Basic Set up #00072D        */
+/*--------------------------- */
+
+
+*{
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: white;
+    color: #555;
+    font-family: 'Lato','Arial',sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+/*---------------------------- */
+/*Reusabele*/
+/*---------------------------- */
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* ---------- Header-----*/
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/connect.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+/*------ Heading ----------*/
+h1{
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 2%;
+    color: #fff;
+    font-size: 110%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+/*------- Navigation ----- */
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 55px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding: 8px 0;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #cf6d17;
+  
+}
+.about-textbox {
+    position: absolute;
+    width: 1140px;
+    top: 30%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    font-size: 270%;
+}
+
+.breif-description {
+    position: absolute;
+    width: 1140px;
+    top: 40%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    font-size: 80%;
+    color: azure;
+    font-weight: 500;    
+}
+h2{
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 2%;
+    color: #fff;
+    font-size: 110%;
+    font-weight: 300;
+    word-spacing: 3px;
+}
