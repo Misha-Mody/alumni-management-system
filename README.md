@@ -1,16 +1,16 @@
 # alumni-management-system
 
 
-1.1 Purpose
+1.1 Purpose:
 The purpose of this document is to give a detailed description of the Alumni Management System under the name of “Alumni+”. The document explains the purpose and the features of the software. It also includes a brief and crisp description of the interface, the constraints and the operation of the application.
 
 
 
-1.2 Intended Audience
+1.2 Intended Audience:
 The intended audience for this application are mostly the organization alumni ,the service provider i.e the operational head from the organization for the application and the application is also extended for the use of current members of the organization to a very limited extent.
 
 
-1.3 Product Scope
+1.3 Product Scope:
 The product mainly aims to manage the alumni of the organization and store information regarding each alumni which will be useful for the organization. Also, to connect the alumni of the organization amongst themselves as well with the current members of the organization.
 
 
@@ -48,67 +48,67 @@ There are basic 3 categories of users for this application
           2.3.3	• Students / Guest:Guests of the page who will have only read only access to basic information of the alumni database.
 
 2.4	Technology Environment
-          1.	HTMP, CSS, BOOTSTRAP JAVASCRIPT
-          2.	Adobe XD [ UI/UX]
-          3.	JAVASCRIPT
-          4.	PHP
+                    2.4.1	HTMP, CSS, BOOTSTRAP JAVASCRIPT
+                    2.4.2	Adobe XD [ UI/UX]
+                    2.4.3	JAVASCRIPT
+                    2.4.4	PHP
 
 
 2.5 Assumption & Dependencies
-The application is developed keeping in mind the following assumption and dependencies:
-●	The users will have an active internet connection.
-●	The administrator credentials are shared with authorized personnel only.
-●	The alumni registering are valid alumni of the institution.
- 
+                    The application is developed keeping in mind the following assumption and dependencies:
+                    ●	The users will have an active internet connection.
+                    ●	The administrator credentials are shared with authorized personnel only.
+                    ●	The alumni registering are valid alumni of the institution.
+
  
 3.	Functional Requirements
 
-3.1	Login for alumni/admin *
-Input 1: Login Id Input 2: Password
-Output: Login Successful/Unsuccessful
+          3.1	Login for alumni/admin 
+                              Input 1: Login Id Input 2: Password
+                              Output: Login Successful/Unsuccessful
 
-3.2	Sign Up (for alumni only)
+          3.2	Sign Up (for alumni only)
 
-3.2.1	Basic Information *
-Input 1: First Name Input 2: Last Name
-Input 3: Gender
-Input 4: Hometown
+                              3.2.1	Basic Information *
+                                        Input 1: First Name Input 2: Last Name
+                                        Input 3: Gender
+                                        Input 4: Hometown
 
-3.2.2	Login Details *
-Input 1: Username
-Output: Available/Unavailable Input 2: Password
-Input 3: Confirm password Output: Acceptable/Unacceptable
+                              3.2.2	Login Details *
+                                        Input 1: Username
+                                        Output: Available/Unavailable Input 2: Password
+                                        Input 3: Confirm password Output: Acceptable/Unacceptable
 
-3.2.3	Contact Information *
-Input 1: Phone
-Input 2: Email
-Input3: LinkedIn
-Input 4: Github
+                              3.2.3	Contact Information 
+                                        Input 1: Phone
+                                        Input 2: Email
+                                        Input3: LinkedIn
+                                        Input 4: Github
 
-3.2.4	Academic Information *
-Input 1: Session (Batch) Input 2: Course
+                              3.2.4	Academic Information 
+                                        Input 1: Session (Batch) Input 2: Course
 
-3.2.5	Job details
-Input 1:Organization Input 2: Job Title
-Output: Information Accepted / Unaccepted
+                              3.2.5	Job details
+                                        Input 1:Organization Input 2: Job Title
+                                        Output: Information Accepted / Unaccepted
 
-3.3	SEARCH
-3.3.1	SEARCH VIA ALUMNI NAME
-Input:	Alumni name
-Output: Detail of the alumni
-
-
-3.4	EVENTS
-The update on latest meetups and events will be showcased here. It gives information on the time, venue and date of these events.
-
-Input:	Time, venue and date Output: Time, venue and date.
+          3.3	SEARCH
+                              3.3.1	SEARCH VIA ALUMNI NAME
+                                        Input:	Alumni name
+                                        Output: Detail of the alumni
 
 
-3.5	DASHBOARD
-INPUT:
-OUTPUT: Information from Database INPUT:
-OUTPUT: Latest news INPUT:
-OUTPUT: Latest events
+          3.4	EVENTS
+                                        The update on latest meetups and events will be showcased here. It gives information on the time, venue and date of these events.
+
+                                        Input:	Time, venue and date Output: Time, venue and date.
+
+
+          3.5	DASHBOARD
+                              INPUT:
+                              OUTPUT: Information from Database INPUT:
+                              OUTPUT: Latest news INPUT:
+                              OUTPUT: Latest events
 
 
 
